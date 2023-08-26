@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="container">
+        <!-- container in sol hissesinin kodlari -->
+        <div class="col-left">
+          <ul >
+            <li>
+              <p class="successNumb"><i class="fa-solid fa-check"></i></p>
+              <p  class="seccessLi">Staff</p>
+            </li>
+  
+            <li>
+                <p class="successNumb"><i class="fa-solid fa-check"></i></p>
+                <p class="seccessLi">Service</p>
+            </li>
+  
+            <li >
+                <p class="successNumb"><i class="fa-solid fa-check"></i></p>
+              <p class="seccessLi">Date & Time</p>
+            </li>
+  
+            <li >
+              <p class="activeNumb">4</p>
+              <p class="activeLi">Confirmation</p>
+            </li>
+          </ul>
+  
+  
+          <div class="line">
+              
+  
+          </div>
+        </div>
+  
+        <!-- container in sag hissesinin kodlari -->
+  
+        <div class="col-right">
+          <div class="errConfirm" id="errConfirm">
+            <p class="textConfirm">Please, fill the all required fields!</p>
+            <p class="iconConfirm"><i class="fa-solid fa-xmark"></i></p>
+          </div>
+
+          <div class="successConfirm" id="successConfirm">
+            <p class="textSuccess">Confirmation successfully completed!</p>
+            <p class="iconSuccess"><i class="fa-solid fa-xmark"></i></p>
+          </div>
+
+
+          <div class="col-right-top">
+            <p class="selectStaff">Confirm detailes</p>
+            <p class="xIcon">x</p>
+          </div>
+          <div class="col-right-middle">
+            <div class="detailes">
+              <label class="detailesLabel" for="">
+                <div class="inputText">
+                  <p>First name</p>
+                  <span class="star"> *</span>
+                </div>
+                <input id="input1" type="text">
+              </label>
+
+              <label class="detailesLabel" for="">
+                <div class="inputText">
+                  <p>Last name</p>
+                  <span class="star"> *</span>
+                </div>
+                <input id="input2" type="text">
+              </label>
+              <label class="detailesLabel" for="">
+                <div class="inputText">
+                  <p>E-mail</p>
+                  <span class="star"> *</span>
+                </div>
+                <input id="input3" type="text">
+              </label>
+              <label class="detailesLabel" for="">
+                <div class="inputText">
+                  <p>Phone</p>
+                </div>
+                <input type="text">
+              </label>
+            </div>
+            <div class="note">
+              <div class="noteTitle">Note</div>
+              <div class="noteDetailes">
+                <div class="detalInto">
+                  <p class="staffColor">Staff: </p>
+                  <p class="staffNote">Alexy Rosetta</p>
+                </div>
+                <div class="detalInto">
+                  <p class="staffColor">Service: </p>
+                  <p class="serviceNote">Oral hygiene</p>
+                </div>
+                <div class="detalInto">
+                  <p class="staffColor">Date: </p>
+                  <p class="dateNote">2022-03-04 / 09:30-10:00
+                  </p>
+                </div>
+                <div class="detalInto">
+                  <p class="staffColor">Staff: </p>
+                  <p class="staffPrice">$123</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-right-bottom-service">
+            <a class="backDataA" href=""><button class="back" id="backData">Back</button></a> 
+            <a class="" href=""><button class="next" id="confirmBooking">Confirm Booking</button></a> 
+          </div>
+        </div>
+      </section>
+
+      <script src="app.js"></script>
+</body>
+</html>

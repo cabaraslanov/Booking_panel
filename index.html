@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  </head>
+  <body>
+    <section class="container">
+      <!-- container in sol hissesinin kodlari -->
+      <div class="col-left">
+        <ul>
+          <li>
+            <p class="activeNumb">1</p>
+            <p class="activeLi">Staff</p>
+          </li>
+
+          <li>
+            <p class="number">2</p>
+            <p class="text">Service</p>
+          </li>
+
+          <li>
+            <p class="number">3</p>
+            <p class="text">Date & Time</p>
+          </li>
+
+          <li>
+            <p class="number">4</p>
+            <p class="text">Confirmation</p>
+          </li>
+        </ul>
+
+        <div class="line"></div>
+      </div>
+
+      <!-- container in sag hissesinin kodlari -->
+
+      <div class="col-right">
+        <div class="col-right-top">
+          <p class="selectStaff">Select staff</p>
+          <p class="xIcon">x</p>
+        </div>
+        <div class="col-right-middle">
+          <div class="staffIndex">
+            <div class="col-right-middle-into" id="alex">
+              <div class="staffImg">
+                <img src="./assets/staff1.png" />
+              </div>
+              <div class="staffText">
+                <p class="staffName">Alex Rosetta</p>
+                <p class="staffEmail">alexyrosetta@egmail.com</p>
+              </div>
+            </div>
+
+            <div class="col-right-middle-into" id="maria">
+              <div class="staffImg">
+                <img src="./assets/staff2.png" />
+              </div>
+              <div class="staffText">
+                <p class="staffName">Maria July</p>
+                <p class="staffEmail">mariajuly@egmail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-right-bottom">
+          <div class="error" id="errStaff">
+            <p><i class="fa-solid fa-circle-exclamation"></i></p>
+            <p>Select staff</p>
+          </div>
+          <a class="nextServiceA" href="">
+            <button class="next" id="nextService">Next</button>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>

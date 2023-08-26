@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+
+    <section class="container">
+      <!-- container in sol hissesinin kodlari -->
+      <div class="col-left">
+        <ul>
+          <li>
+            <p class="successNumb"><i class="fa-solid fa-check"></i></p>
+            <p class="seccessLi">Staff</p>
+          </li>
+
+          <li>
+            <p class="activeNumb">2</p>
+            <p class="activeLi">Service</p>
+          </li>
+
+          <li>
+            <p class="number">3</p>
+            <p class="text">Date & Time</p>
+          </li>
+
+          <li>
+            <p class="number">4</p>
+            <p class="text">Confirmation</p>
+          </li>
+        </ul>
+
+        <div class="line"></div>
+      </div>
+
+      <!-- container in sag hissesinin kodlari -->
+
+      <div class="col-right">
+        <div class="col-right-top">
+          <p class="selectStaff">Select service</p>
+          <p class="xIcon">x</p>
+        </div>
+        <div class="col-right-middle">
+          <div class="col-right-middle-into" id="service1">
+            <div class="staffImg">
+              <img src="./assets/service1.png" />
+            </div>
+            <div class="textAndPrice">
+              <div class="staffText">
+                <p class="staffName">Oral hygiene</p>
+                <p class="staffEmail">1 hour</p>
+              </div>
+              <div class="price">50$</div>
+          </div>
+          </div>
+
+          <div class="col-right-middle-into" id="service2">
+            <div class="staffImg">
+              <img src="./assets/service2.png" />
+            </div>
+            <div class="textAndPrice">
+              <div class="staffText">
+                <p class="staffName">Implants</p>
+                <p class="staffEmail">1 hour 30 minutes</p>
+              </div>
+              <div class="price">120$</div>
+          </div>
+          </div>
+
+
+          <div class="col-right-middle-into" id="service3">
+            <div class="staffImg">
+              <img src="./assets/service3.png" />
+            </div>
+            <div class="textAndPrice">
+              <div class="staffText">
+                <p class="staffName">Check up</p>
+                <p class="staffEmail">1 hour 12 minutes</p>
+              </div>
+              <div class="price">140$</div>
+          </div>
+          </div>
+
+
+
+        </div>
+        <div class="col-right-bottom-service">
+          <a class="backStaffA" href=""><button class="back" id="backStaffBtn">Back</button></a> 
+          <div class="errorSer" id="errorService">
+            <p><i class="fa-solid fa-circle-exclamation"></i></p>
+            <p>Select staff</p>
+          </div>
+          <a class="nextDataA" href=""><button class="next" id="nextData">Next</button></a> 
+        </div>
+      </div>
+      
+    </section>
+    <!-- <script language="javascript" src="http://ir.sitekodlari.com/takvim8.js?120823"></script> -->
+    <script src="app.js"></script>
+  </body>
+</html>
